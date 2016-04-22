@@ -21,7 +21,7 @@ public class Main {
             System.out.println("---------");
         }
         try {
-            myClass = (MyClass) constructors[0].newInstance(9,9,9,9);
+            myClass = (MyClass) constructors[1].newInstance(9, 9, 9, 9);
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

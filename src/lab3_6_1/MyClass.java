@@ -5,8 +5,8 @@ package lab3_6_1;
  */
 public class MyClass {
     public int a;
-    int b;
     protected int c;
+    int b;
     private int d;
 
     public MyClass(int a, int b, int c, int d) {
@@ -17,6 +17,11 @@ public class MyClass {
     }
     public MyClass(){
         this(1,1,1,1);
+    }
+
+    public MyClass(int b) {
+        this();
+        setB(b);
     }
 
     public int getA() {
